@@ -40,3 +40,37 @@
 .read-the-docs {
   color: #888;
 }
+
+.table {
+	width:100%;
+	border:none;
+}
+
+.table-header {
+	display:flex;
+	width:100%;
+	background:#000;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.table-row {
+	display:flex;
+	width:100%;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.table-data, .header__item {
+	flex: 1 1 20%;
+	text-align:center;
+
+}
+
+.header__item {
+	text-transform:uppercase;
+}
+tr{
+  background-color: aliceblue;
+  color: #000;
+}
